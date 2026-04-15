@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIS Portfolio</title>
+    <meta
+      name="description"
+      content="GIS portfolio featuring mapping, spatial analysis, shoreline research, and data visualization projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <span class="brand">Aubrey Graham</span>
+          <a href="#projects" class="top-link">View Projects</a>
+        </nav>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Spatial Analysis • Cartography • Data Storytelling</p>
+          <h1>GIS Portfolio</h1>
+          <div class="hero-actions">
+            <a class="primary-button" href="#projects">Explore Portfolio</a>
+            <a class="secondary-button" href="#contact">Contact</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="summary-grid" aria-label="Professional summary">
+          <article>
+            <span class="summary-label">Focus Areas</span>
+            <p>Environmental mapping, shoreline analysis, demographic cartography, and project-based spatial reporting.</p>
+          </article>
+          <article>
+            <span class="summary-label">Core Tools</span>
+            <p>ArcGIS Pro, cartographic layout design, raster analysis, vector workflows, and presentation-ready reporting.</p>
+          </article>
+        </section>
+
+        <section class="section-heading" id="projects">
+          <p class="eyebrow">Selected Work</p>
+          <h2>GIS Projects</h2>
+          <p>
+            Each project includes a short overview, supporting screenshots, tools used, and
+            direct download links for the original deliverables.
+          </p>
+        </section>
+
+        <section id="project-list" class="project-list" aria-live="polite"></section>
+
+        <section class="section-heading" id="contact">
+          <h2>Contact</h2>
+        </section>
+
+        <section class="contact-card">
+          <div>
+            <span class="summary-label">Your Name</span>
+            <p>Aubrey Graham</p>
+          </div>
+          <div>
+            <span class="summary-label">Email</span>
+            <p>greysongraham@icloud.com</p>
+          </div>
+          <div>
+            <span class="summary-label">LinkedIn</span>
+            <p>www.linkedin.com/in/greyson-graham-b9b9173a8</p>
+          </div>
+          <div>
+            <span class="summary-label">Location</span>
+            <p>Chapel Hill, NC</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./projects.js"></script>
+  </body>
+</html>
